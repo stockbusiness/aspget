@@ -1,0 +1,27 @@
+# 認証情報
+.env
+.env.local
+*.pem
+
+# セッション・生データ（絶対にコミットしない）
+storage/session/
+storage/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Playwright
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+logs/

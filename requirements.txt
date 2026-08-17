@@ -1,0 +1,20 @@
+# HTTP / API
+httpx==0.27.2
+
+# ブラウザ自動化
+playwright==1.48.0
+
+# DB
+psycopg[binary]==3.2.3
+SQLAlchemy==2.0.36
+
+# データ処理
+pandas==2.2.3
+chardet==5.2.0
+
+# 設定
+python-dotenv==1.0.1
+PyYAML==6.0.2
+
+# テスト
+pytest==8.3.3
