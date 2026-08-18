@@ -1,0 +1,102 @@
+{
+  "resultSet": {
+    "responseInfo": {
+      "numberOfResult": 3,
+      "nextOffset": 0,
+      "responseTime": "2026-08-17 03:15:00"
+    },
+    "requestInfo": {
+      "query": "from_date=2026-07-13&to_date=2026-08-17&criteria=o",
+      "requestTime": "2026-08-17 03:15:00"
+    },
+    "rowData": [
+      {
+        "clickDate": "2026-08-15 10:20:11",
+        "orderDate": "2026-08-15 10:23:45",
+        "approvalDate": "",
+        "transactionOid": 1234567890,
+        "merchantOid": 111111,
+        "merchantName": "株式会社サンプル",
+        "programOid": 222222,
+        "programName": "サンプルプログラム",
+        "vcptn": "campaign_a",
+        "itemQuantity": 2,
+        "itemPriceTotal": 12000,
+        "affilPaymentNet": 1090,
+        "affilPaymentTax": 110,
+        "affilPayment": 1200,
+        "approvalStatus": "p",
+        "approvalDeadline": "2026-09-30",
+        "referrer": "https://example.com/review",
+        "device": "pc",
+        "updDate": "2026-08-15 11:00:00",
+        "affilId": 999999,
+        "affiliateSite": "example.com",
+        "detail": [
+          {
+            "itemId": "SKU-001",
+            "productId": "P-001",
+            "productGroupCode": "G-01",
+            "productGroupName": "書籍",
+            "itemName": "サンプル商品A",
+            "itemQuantity": 1,
+            "itemPrice": 6000,
+            "itemPriceTotal": 6000,
+            "affilPaymentNet": 545,
+            "affilPaymentTax": 55,
+            "affilPayment": 600,
+            "updDate": "2026-08-15 11:00:00"
+          }
+        ]
+      },
+      {
+        "clickDate": "2026-08-10 21:05:00",
+        "orderDate": "2026-08-10 21:09:30",
+        "approvalDate": "2026-08-14 09:00:00",
+        "transactionOid": 1234567891,
+        "merchantOid": 111112,
+        "merchantName": "サンプル商事株式会社",
+        "programOid": 222223,
+        "programName": "サンプルプログラムB",
+        "vcptn": "",
+        "itemQuantity": 1,
+        "itemPriceTotal": 3000,
+        "affilPaymentNet": 272,
+        "affilPaymentTax": 28,
+        "affilPayment": 300,
+        "approvalStatus": "a",
+        "approvalDeadline": "2026-09-10",
+        "referrer": "https://example.com/",
+        "device": "sp",
+        "updDate": "2026-08-14 09:00:00",
+        "affilId": 999999,
+        "affiliateSite": "example.com",
+        "detail": []
+      },
+      {
+        "clickDate": "2026-08-01 08:00:00",
+        "orderDate": "2026-08-01 08:04:00",
+        "approvalDate": "2026-08-05 12:00:00",
+        "transactionOid": 1234567892,
+        "merchantOid": 111113,
+        "merchantName": "テスト合同会社",
+        "programOid": 222224,
+        "programName": "サンプルプログラムC",
+        "vcptn": null,
+        "itemQuantity": 1,
+        "itemPriceTotal": 980,
+        "affilPaymentNet": 90,
+        "affilPaymentTax": 10,
+        "affilPayment": 100,
+        "approvalStatus": "c",
+        "approvalDeadline": "2026-09-01",
+        "referrer": "",
+        "device": "sp",
+        "updDate": "2026-08-05 12:00:00",
+        "affilId": 999999,
+        "affiliateSite": "example.com",
+        "detail": []
+      }
+    ]
+  }
+}

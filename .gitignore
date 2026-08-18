@@ -6,6 +6,7 @@
 # セッション・生データ（絶対にコミットしない）
 storage/session/
 storage/raw/
+storage/state/
 
 # Python
 __pycache__/
